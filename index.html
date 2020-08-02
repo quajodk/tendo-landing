@@ -310,8 +310,8 @@
                   <div class="py-2 pl-4">
                     <h2 class="h4">Earn</h2>
                     <span class="font-size-1 font-weight-bold small">
-                      Place order on Tendo for your customer. Tendo deliver on
-                      your behalf, and send your profit.
+                      Place order on Tendo for your customer. Tendo will deliver
+                      on your behalf, and send your profit.
                     </span>
                   </div>
                 </div>
@@ -355,7 +355,7 @@
                     class="js-fancybox video-player video-player-btn d-flex justify-content-center align-items-center"
                     href="javascript:;"
                     data-hs-fancybox-options='{
-                                   "src": "//youtube.com/BOCyiSvm3LM",
+                                   "src": "//youtube.com/e5mQ1MnC5VI",
                                    "caption": "Tendo Reseller App - tutorials",
                                    "speed": 700,
                                    "buttons": ["fullScreen", "close"],
@@ -404,7 +404,7 @@
                     <div class="step-content">
                       <h4>Turn your Contacts to Customers</h4>
                       <p class="mb-0">
-                        Sharing products on online, let you leverage on your
+                        Sharing products online, let you leverage on your
                         network. Your contacts become your customers
                       </p>
                     </div>
@@ -444,7 +444,7 @@
                   Tendo helps me make sales without the burden of transporting
                   or carrying goods. Tendo is not a scam. It is a real business.
                   For those who don't trust online store business because some
-                  of such businesses are scam.
+                  of such businesses are scams.
                 </p>
               </div>
             </div>
@@ -503,27 +503,11 @@
           <!-- Testimonials -->
           <div class="card shadow-none bg-transparent">
             <div class="card-body">
-              <ul class="list-inline text-warning small">
-                <li class="list-inline-item mx-0">
-                  <i class="fas fa-star"></i>
-                </li>
-                <li class="list-inline-item mx-0">
-                  <i class="fas fa-star"></i>
-                </li>
-                <li class="list-inline-item mx-0">
-                  <i class="fas fa-star"></i>
-                </li>
-                <li class="list-inline-item mx-0">
-                  <i class="fas fa-star"></i>
-                </li>
-                <li class="list-inline-item mx-0">
-                  <i class="fas fa-star"></i>
-                </li>
-              </ul>
               <div class="mb-auto">
                 <p class="mb-0">
-                  I love Front Pay for cash back, reward points and fraud
-                  protection – just like when you're swiping your card.
+                  I saw Tendo advert on Facebook, I hesitated but later decided
+                  to give it a try. And I have not regretted taking that
+                  decision because I am seeing positive results with Tendo.
                 </p>
               </div>
             </div>
@@ -538,8 +522,8 @@
                   />
                 </div>
                 <div class="media-body">
-                  <h4 class="mb-1">Mark McManus</h4>
-                  <small class="d-block text-body">Front Pay user</small>
+                  <h4 class="mb-1">Lady Dzidzor</h4>
+                  <small class="d-block text-body">Entrepreneur</small>
                 </div>
               </div>
             </div>
@@ -983,14 +967,29 @@
             <!-- Social Networks -->
             <ul class="list-inline mb-0">
               <li class="list-inline-item mb-2 mb-sm-0">
-                <a class="btn btn-xs btn-icon btn-ghost-navy" href="#">
+                <a
+                  class="btn btn-xs btn-icon btn-ghost-navy"
+                  href="www.facebook.com/tendohq"
+                >
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
 
               <li class="list-inline-item mb-2 mb-sm-0">
-                <a class="btn btn-xs btn-icon btn-ghost-navy" href="#">
+                <a
+                  class="btn btn-xs btn-icon btn-ghost-navy"
+                  href="https://twitter.com/tendohq"
+                >
                   <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+
+              <li class="list-inline-item mb-2 mb-sm-0">
+                <a
+                  class="btn btn-xs btn-icon btn-ghost-navy"
+                  href="https://www.instagram.com/tendohq/"
+                >
+                  <i class="fab fa-instagram"></i>
                 </a>
               </li>
 
@@ -1162,25 +1161,12 @@
 
       const sendNumberToSlack = (e) => {
         e.preventDefault();
-        formData.text = `My phone number is ${phoneInput.value}. I want to join Tendo. This message is from the join with phone number column on the website
+        const text = `My%20phone%20number%20is%20${phoneInput.value}.%20I%20want%20to%20join%20Tendo.
             `;
-        fetch(WEBHOOK, {
-          method: "POST",
-          credentials: "omit",
-          body: JSON.stringify(formData),
-        })
-          .then((res) => {
-            if (res.status === 200) {
-              sendBtn.innerText = "Sent!";
-              sendBtn.classList.remove("btn-primary");
-              sendBtn.classList.add("btn-success");
-              phoneInput.value = "";
+        const url = `https://wa.me/+233506875045?text=${text}`;
+        phoneInput.value = "";
 
-              return res.json;
-            }
-          })
-          .then((data) => console.log(data))
-          .catch((e) => console.log(e));
+        return window.open(url, "_blank");
       };
 
       const subEmailToSlack = (e) => {
