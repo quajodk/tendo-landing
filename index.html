@@ -122,11 +122,8 @@
                     >
                   </li>
                   <li class="header-nav-last-item ml-lg-2">
-                    <a
-                      class="btn btn-primary btn-sm transition-3d-hover"
-                      href="https://rebrand.ly/hi-tendo"
-                      >Get App</a
-                    >
+                    <a class="btn btn-primary transition-3d-hover" href="javascript:;" data-toggle="modal"
+                      data-target="#invoiceReceiptModal">Get App</a>
                   </li>
                 </ul>
               </div>
@@ -138,6 +135,69 @@
       </div>
     </header>
     <!-- ========== END HEADER ========== -->
+
+    
+    
+    <!-- Invoice Modal -->
+    <div class="modal fade" id="invoiceReceiptModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Header -->
+          <div class="modal-top-cover bg-primary text-center">
+            <figure class="position-absolute right-0 bottom-0 left-0">
+              <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+                <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z" />
+              </svg>
+            </figure>
+    
+            <div class="modal-close">
+              <button type="button" class="btn btn-icon btn-sm btn-ghost-light" data-dismiss="modal" aria-label="Close">
+                <svg width="16" height="16" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor"
+                    d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <!-- End Header -->
+    
+          <div class="modal-top-cover-avatar">
+            <img class="avatar avatar-lg avatar-circle avatar-border-lg avatar-centered shadow-soft"
+              src="./assets/images/favtendo.png" alt="Logo">
+          </div>
+    
+          <!-- Body -->
+          <div class="modal-body pt-3 pb-sm-5 px-sm-5">
+            <p class="text-center my-4">Select your country</p>
+            <div class="row mb-6 text-center">
+              <div class="col-md-6">
+                <a href="https://rebrand.ly/hi-tendo" target="_blank">
+                  <span class="avatar avatar-xl">
+                    <img class="avatar-img" src="./assets/images/ghana.svg" alt="Image Description">
+                  </span>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="https://rebrand.ly/hi-tendong" target="_blank">
+                  <span class="avatar avatar-xl">
+                    <img class="avatar-img" src="./assets/images/nija.svg" alt="Image Description">
+                  </span>
+                </a>
+              </div>
+            </div>
+    
+            <hr class="my-5">
+    
+            <p class="modal-footer-text">If you have any questions, please contact us at <a
+                href="mailto:inbox@tendo.app">inbox@tendo.app</a> or call <a class="text-nowrap" href="#">+233 50 687 5045</a></p>
+          </div>
+          <!-- End Body -->
+        </div>
+      </div>
+    </div>
+    <!-- End Invoice Modal -->
+
+
 
     <!-- ========== MAIN CONTENT ========== -->
     <main id="content" role="main" class="overflow-hidden">
@@ -164,7 +224,7 @@
               <!-- Form -->
               <form class="js-validate mb-5">
                 <div class="form-row">
-                  <div class="col-sm col-md-6 col-lg mb-2">
+                  <!-- <div class="col-sm col-md-6 col-lg mb-2">
                     <div class="input-group">
                       <div class="input-group-prepend">
                         <span class="input-group-text">
@@ -180,28 +240,25 @@
                         aria-label="Phone number"
                       />
                     </div>
-                  </div>
+                  </div> -->
 
                   <div class="col-sm-auto">
-                    <button
-                      id="sendBtn"
-                      type="button"
-                      class="btn btn-primary btn-block"
-                    >
-                      Join
-                    </button>
+                    <a class="btn btn-primary transition-3d-hover" href="javascript:;" data-toggle="modal"
+                      data-target="#invoiceReceiptModal">Join Tendo</a>
                   </div>
                 </div>
               </form>
               <!-- End Form -->
 
               <h5 class="mb-3">Get our mobile app</h5>
-              <a class="btn btn-icon btn-indigo rounded-circle mr-2" href="https://rebrand.ly/tendo-ios">
+              <a class="btn btn-icon btn-indigo rounded-circle mr-2" href="javascript:;" data-toggle="modal"
+                      data-target="#invoiceReceiptModal">
                 <i class="fab fa-apple"></i>
               </a>
               <a
                 class="btn btn-icon btn-indigo rounded-circle"
-                href="https://rebrand.ly/downloadtendo"
+                href="javascript:;" data-toggle="modal"
+                      data-target="#invoiceReceiptModal"
               >
                 <i class="fab fa-google-play"></i>
               </a>
@@ -435,12 +492,8 @@
               <!-- End Icon Block -->
 
               <div class="mt-2">
-                <a
-                  class="btn btn-primary transition-3d-hover px-4"
-                  target="blank"
-                  href="https://rebrand.ly/hi-tendo"
-                  >Join Tendo</a
-                >
+                <a class="btn btn-primary transition-3d-hover" href="javascript:;" data-toggle="modal"
+                  data-target="#invoiceReceiptModal">Join Tendo</a>
               </div>
             </div>
           </div>
@@ -572,7 +625,7 @@
           <div class="row no-gutters align-items-lg-center mb-7 mb-md-11">
             <div
               class="col-lg-7 shadow-lg bg-img-hero rounded"
-              style="background-image: url(./assets/images/supplier-bg.png);"
+              style="background-image: url(./assets/images/business-tendo.jpeg);"
             >
               <div class="text-center py-11 px-5 px-sm-9">
                 <div class="mb-9" style="height: 200px;"></div>
@@ -660,8 +713,7 @@
               <div class="media-body">
                 <h4>Grow your business organically with Tendo</h4>
                 <p>
-                  With over 500 active reseller network and an average sales of
-                  5000 cedis each week. Expand and grow your business at no
+                  Leverage on our reseller network to reach more people with your products. Expand and grow your business at zero
                   extra cost.
                 </p>
               </div>
@@ -812,6 +864,9 @@
                               >
                               <option value="health&products"
                                 >Health and health products</option
+                              >
+                              <option value="others"
+                                >others</option
                               >
                             </select>
                           </div>
@@ -1134,7 +1189,9 @@
       const formData = {};
       // slack webhook
       const WEBHOOK =
-        "https://hooks.slack.com/services/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";
+        "https://hooks.slack.com/services/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";
+
+        const emailSubWebhook = 'https://hooks.slack.com/services/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';
 
       // get form inputs
       const firstName = document.querySelector("#firstName");
@@ -1145,7 +1202,7 @@
       const productDetails = document.querySelector("#aboutProject");
       const supplierBtn = document.querySelector("#supplierForm");
       const phoneInput = document.querySelector("#numberInput");
-      const sendBtn = document.querySelector("#sendBtn");
+      // const sendBtn = document.querySelector("#sendBtn");
       const emailSubBtn = document.querySelector("#emailSub");
       const emailSub = document.querySelector("#subscribeSrEmail");
 
@@ -1195,7 +1252,7 @@
         e.preventDefault();
         formData.text = `My email is ${emailSub.value}. I want to subscribe to Tendo newsletters.
             `;
-        fetch(WEBHOOK, {
+        fetch(emailSubWebhook, {
           method: "POST",
           credentials: "omit",
           body: JSON.stringify(formData),
@@ -1216,7 +1273,7 @@
 
       //   event handlers
       supplierBtn.addEventListener("click", (e) => submit(e));
-      sendBtn.addEventListener("click", (e) => sendNumberToSlack(e));
+      // sendBtn.addEventListener("click", (e) => sendNumberToSlack(e));
       emailSubBtn.addEventListener("click", (e) => subEmailToSlack(e));
     </script>
     <!-- The core Firebase JS SDK is always required and must be listed first -->

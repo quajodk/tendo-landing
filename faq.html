@@ -123,11 +123,8 @@
                     >
                   </li>
                   <li class="header-nav-last-item ml-lg-2">
-                    <a
-                      class="btn btn-primary btn-sm transition-3d-hover"
-                      href="https://rebrand.ly/hi-tendo"
-                      >Get App</a
-                    >
+                    <a class="btn btn-primary transition-3d-hover" href="javascript:;" data-toggle="modal"
+                      data-target="#invoiceReceiptModal">Get App</a>
                   </li>
                 </ul>
               </div>
@@ -139,6 +136,66 @@
       </div>
     </header>
     <!-- ========== END HEADER ========== -->
+
+    <!-- Invoice Modal -->
+    <div class="modal fade" id="invoiceReceiptModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <!-- Header -->
+          <div class="modal-top-cover bg-primary text-center">
+            <figure class="position-absolute right-0 bottom-0 left-0">
+              <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+                <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z" />
+              </svg>
+            </figure>
+    
+            <div class="modal-close">
+              <button type="button" class="btn btn-icon btn-sm btn-ghost-light" data-dismiss="modal" aria-label="Close">
+                <svg width="16" height="16" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="currentColor"
+                    d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <!-- End Header -->
+    
+          <div class="modal-top-cover-avatar">
+            <img class="avatar avatar-lg avatar-circle avatar-border-lg avatar-centered shadow-soft"
+              src="./assets/images/favtendo.png" alt="Logo">
+          </div>
+    
+          <!-- Body -->
+          <div class="modal-body pt-3 pb-sm-5 px-sm-5">
+    
+            <div class="row mb-6 text-center">
+              <div class="col-md-6">
+                <a href="http://">
+                  <span class="avatar avatar-xl">
+                    <img class="avatar-img" src="./assets/images/ghana.svg" alt="Image Description">
+                  </span>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="http://">
+                  <span class="avatar avatar-xl">
+                    <img class="avatar-img" src="./assets/images/nija.svg" alt="Image Description">
+                  </span>
+                </a>
+              </div>
+            </div>
+    
+            <hr class="my-5">
+    
+            <p class="modal-footer-text">If you have any questions, please contact us at <a
+                href="mailto:inbox@tendo.app">inbox@tendo.app</a> or call <a class="text-nowrap" href="#">+233 50 687
+                5045</a></p>
+          </div>
+          <!-- End Body -->
+        </div>
+      </div>
+    </div>
+    <!-- End Invoice Modal -->
 
     <!-- ========== MAIN ========== -->
     <main id="content" role="main">
@@ -1244,7 +1301,7 @@
       const formData = {};
       // slack webhook
       const WEBHOOK =
-        "https://hooks.slack.com/services/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";
+        "https://hooks.slack.com/services/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";
 
       const emailSubBtn = document.querySelector("#emailSub");
       const emailSub = document.querySelector("#subscribeSrEmail");
