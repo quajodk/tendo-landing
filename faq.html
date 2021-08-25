@@ -1301,33 +1301,44 @@
       const formData = {};
       // slack webhook
       const WEBHOOK =
-        "https://hooks.slack.com/services/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";
+        "https://api.sheety.co/a565db2f5f48f6cbd0782a1342697a80/tendoGhanaGlide/emailSubscription";
 
       const emailSubBtn = document.querySelector("#emailSub");
       const emailSub = document.querySelector("#subscribeSrEmail");
 
       const subEmailToSlack = (e) => {
-        e.preventDefault();
-        formData.text = `My email is ${emailSub.value}. I want to subscribe to Tendo newsletters.
+          e.preventDefault();
+          emailSubBtn.innerHTML = `<div class="spinner-border spinner-border-sm" role="status">
+            <span class="visually-hidden sr-only">Loading...</span>
+          </div>`;
+          formData.text = `My email is ${emailSub.value}. I want to subscribe to Tendo newsletters.
             `;
-        fetch(WEBHOOK, {
-          method: "POST",
-          credentials: "omit",
-          body: JSON.stringify(formData),
-        })
-          .then((res) => {
-            if (res.status === 200) {
-              emailSubBtn.innerHTML = `<i class="far fa-check-circle"></i>`;
-              emailSubBtn.classList.remove("btn-primary");
-              emailSubBtn.classList.add("btn-success");
-              emailSub.value = "";
-
-              return res.json;
-            }
+          let body = {
+            emailSubscription: {
+              email: emailSub.value,
+            },
+          }
+          fetch(WEBHOOK, {
+            method: "POST",
+            body: JSON.stringify(body),
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: "Bearer VGVuZG8gUmVzZWxsZXIkIDIwMjE=",
+            },
           })
-          .then((data) => console.log(data))
-          .catch((e) => console.log(e));
-      };
+            .then((res) => {
+              if (res.status === 200) {
+                emailSubBtn.innerHTML = `<i class="far fa-check-circle"></i>`;
+                emailSubBtn.classList.remove("btn-primary");
+                emailSubBtn.classList.add("btn-success");
+                emailSub.value = "";
+
+                return res.json;
+              }
+            })
+            .then((data) => console.log(data))
+            .catch((e) => console.log(e));
+        };
 
       emailSubBtn.addEventListener("click", (e) => subEmailToSlack(e));
     </script>
