@@ -127,7 +127,7 @@
                 <ul class="js-scroll-nav navbar-nav">
                   <li class="header-nav-item">
                     <a class="nav-link header-nav-link" href="/">
-                      >Home</a
+                      Home</a
                     >
                   </li>
                   <li class="header-nav-item">
@@ -1021,7 +1021,7 @@
                 <a class="nav-link" href="./faq.html">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Legal &amp; Policy</a>
+                <a class="nav-link" href="./terms-and-conditions.html">Terms &amp; Policy</a>
               </li>
             </ul>
             <!-- End Nav Links -->
@@ -1388,6 +1388,22 @@
       // Initialize Firebase
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
+    </script>
+    <script>
+      (function (d, t) {
+        var BASE_URL = "";
+        var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        g.src = BASE_URL + "/packs/js/sdk.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+        g.onload = function () {
+          window.chatwootSDK.run({
+            websiteToken: '8D2hCtCZwa4p79b4AJvDpruu',
+            baseUrl: BASE_URL
+          })
+        }
+      })(document, "script");
     </script>
   </body>
 </html>
