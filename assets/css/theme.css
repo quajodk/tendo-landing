@@ -4359,7 +4359,7 @@ nav1 .wrapper1 {
     display: flex;
   }
   .wrapper1 .nav1-links {
-    height: 80vh;
+    height: 35vh;
     width: 100%;
     top: 0;
     background: #e6e6ff;
@@ -4447,7 +4447,7 @@ nav1 .wrapper1 {
   .mega-box .content {
     box-shadow: none;
     flex-direction: column;
-    padding: 20px 20px 0 20px;
+    padding: 30px 30px 0 30px;
   }
   .mega-box .content .row {
     width: 100%;
@@ -4469,7 +4469,7 @@ nav1 .wrapper1 {
     font-size: 19px;
   }
   .heroo {
-    margin-top: 450px;
+    margin-top: 200px;
   }
 }
 nav1 input {
