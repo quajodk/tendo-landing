@@ -4373,10 +4373,10 @@ nav1 .wrapper1 {
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: #242526;
+    background: #808285;
   }
   ::-webkit-scrollbar-thumb {
-    background: #3a3b3c;
+    background: #124a83;
   }
   #menu-btn:checked ~ .nav1-links {
     left: 0%;
@@ -21960,7 +21960,7 @@ label.btn {
   font-size: 14px;
   max-height: 1px;
   overflow: hidden;
-  line-height: 1.4;
+  line-height: 1.2;
   position: relative;
   top: -100%;
   opacity: 0.5;
