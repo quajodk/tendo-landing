@@ -206,7 +206,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   overflow: auto;
-  -ms-overflow-style: scrollbar;
+  -ms-overflow-style: "scrollbar";
 }
 
 figure {
@@ -3722,16 +3722,17 @@ input[type="button"].btn-block {
   border-radius: 0.3125rem;
 }
 
-<<<<<<< HEAD
-=======
-@media only screen and (min-width: 768px) {
+  @media
+  only
+  screen
+  and
+  (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
 
->>>>>>> seo
-.dropdown-menu-left {
+  .dropdown-menu-left {
   right: auto;
   left: 0;
 }
@@ -4217,8 +4218,6 @@ input[type="button"].btn-block {
   border-bottom-left-radius: 0;
 }
 
-<<<<<<< HEAD
-=======
 .dload {
   color: #fff;
   font-size: 15px;
@@ -4382,6 +4381,10 @@ nav1 .wrapper1 {
   }
   ::-webkit-scrollbar-thumb {
     background: #124a83;
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ababac;
   }
   #menu-btn:checked ~ .nav1-links {
     left: 0%;
@@ -4495,7 +4498,6 @@ nav1 input {
 }
 /* End of second header */
 
->>>>>>> seo
 .custom-control {
   position: relative;
   display: block;
@@ -7729,11 +7731,10 @@ button.bg-success:focus {
 }
 
 .bg-info {
-<<<<<<< HEAD
   background-color: #09a5be !important;
-=======
   background-color: #4d4dff !important;
->>>>>>> seo
+  background-color: #09a5be !important;
+  background-color: #4d4dff !important;
 }
 
 a.bg-info:hover,
@@ -20750,11 +20751,10 @@ label.btn {
   display: inline-block;
   width: 0.5rem;
   height: 0.5rem;
-<<<<<<< HEAD
   background-color: #bdc5d1;
-=======
   background-color: #4d4dff;
->>>>>>> seo
+  background-color: #bdc5d1;
+  background-color: #4d4dff;
   border-radius: 50%;
   margin-right: 0.4375rem;
 }
@@ -21922,8 +21922,6 @@ label.btn {
   transform: scale(0.9);
 }
 
-<<<<<<< HEAD
-=======
 /* collapsible */
 .wrapper {
   display: flex;
@@ -22004,7 +22002,6 @@ label.btn {
   padding-right: 15px;
 }
 
->>>>>>> seo
 /* White Version */
 .slick-pagination-white li span {
   background-color: #fff;
