@@ -21973,7 +21973,7 @@ label.btn {
 .collapsible-text {
   font-size: 14px;
   max-height: 1px;
-  overflow: hidden;
+  overflow: auto;
   line-height: 1.2;
   position: relative;
   top: -100%;
