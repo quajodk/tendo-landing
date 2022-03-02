@@ -4356,14 +4356,14 @@ nav1 .wrapper1 {
 /*Media Query*/
 @media screen and (max-width: 1010px) {
   .wrapper1 .btn {
-    display: flex;
+    display: none;
   }
   .wrapper1 .nav1-links {
     height: 35vh;
     width: 100%;
     top: 0;
     background: #e6e6ff;
-    display: inline-block;
+    display: none;
     line-height: 50px;
     overflow-y: auto;
     transition: all 0.3s ease;
@@ -4392,7 +4392,7 @@ nav1 .wrapper1 {
   }
   .nav1-links li a {
     padding: 0 20px;
-    display: block;
+    display: none;
     font-size: 20px;
   }
   .nav1-links .drop-menu {
@@ -4469,7 +4469,10 @@ nav1 .wrapper1 {
     font-size: 19px;
   }
   .heroo {
-    margin-top: 200px;
+    margin-top: 0px;
+  }
+  nav1 {
+    display: none;
   }
 }
 nav1 input {
