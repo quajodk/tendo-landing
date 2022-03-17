@@ -1,1251 +1,967 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <meta charset="UTF-8" />
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-          'gtm.start':
-            new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-PTR6SHN');</script>
-    <!-- End Google Tag Manager -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
-    <!-- Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
+<head>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
-    />
+  <meta charset="UTF-8" />
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PTR6SHN');</script>
+  <!-- End Google Tag Manager -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/theme.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
-    <!-- favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    <title>Tendo | FAQ</title>
-  </head>
-  <body id="homeSection">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTR6SHN" height="0" width="0"
-        style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <!-- ========== HEADER ========== -->
-    <header
-      id="header"
-      class="header header-box-shadow-on-scroll header-white-bg-on-scroll header-bg-transparent header-abs-top header-show-hide"
-      data-hs-header-options='{
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/theme.css" />
+
+  <!-- favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Tendo | FAQ</title>
+</head>
+
+<body id="homeSection">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTR6SHN" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- ========== HEADER ========== -->
+  <header id="header"
+    class="header header-box-shadow-on-scroll header-white-bg-on-scroll header-bg-transparent header-abs-top header-show-hide"
+    data-hs-header-options='{
                     "fixMoment": 1000,
                     "fixEffect": "slide"
-                  }'
-    >
-      <div class="header-section">
-        <div id="logoAndNav" class="container">
-          <!-- Nav -->
-          <nav class="js-mega-menu navbar navbar-expand-lg">
-            <!-- Logo -->
-            <a class="navbar-brand" href="/" aria-label="Tendo">
-              <img src="./assets/images/logo-tendo.png" alt="Logo" />
-            </a>
-            <!-- End Logo -->
+                  }'>
+    <div class="header-section">
+      <div id="logoAndNav" class="container">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-lg">
+          <!-- Logo -->
+          <a class="navbar-brand" href="/" aria-label="Tendo">
+            <img src="./assets/images/logo-tendo.png" alt="Logo" />
+          </a>
+          <!-- End Logo -->
 
-            <!-- Responsive Toggle Button -->
-            <button
-              type="button"
-              class="navbar-toggler btn btn-icon btn-sm rounded-circle"
-              aria-label="Toggle navigation"
-              aria-expanded="false"
-              aria-controls="navBar"
-              data-toggle="collapse"
-              data-target="#navBar"
-            >
-              <span class="navbar-toggler-default">
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 18 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z"
-                  />
-                </svg>
-              </span>
-              <span class="navbar-toggler-toggled">
-                <svg
-                  width="14"
-                  height="14"
-                  viewBox="0 0 18 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="currentColor"
-                    d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z"
-                  />
-                </svg>
-              </span>
-            </button>
-            <!-- End Responsive Toggle Button -->
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn btn-icon btn-sm rounded-circle" aria-label="Toggle navigation"
+            aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+            <span class="navbar-toggler-default">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M17.4,6.2H0.6C0.3,6.2,0,5.9,0,5.5V4.1c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,5.9,17.7,6.2,17.4,6.2z M17.4,14.1H0.6c-0.3,0-0.6-0.3-0.6-0.7V12c0-0.4,0.3-0.7,0.6-0.7h16.9c0.3,0,0.6,0.3,0.6,0.7v1.4C18,13.7,17.7,14.1,17.4,14.1z" />
+              </svg>
+            </span>
+            <span class="navbar-toggler-toggled">
+              <svg width="14" height="14" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
+              </svg>
+            </span>
+          </button>
+          <!-- End Responsive Toggle Button -->
 
-            <!-- Navigation -->
-            <div id="navBar" class="collapse navbar-collapse">
-              <div class="navbar-body header-abs-top-inner">
-                <ul class="js-scroll-nav navbar-nav">
-                  <li class="header-nav-item">
-                    <a class="nav-link header-nav-link" href="/"
-                      >Home</a
-                    >
-                  </li>
-                  <li class="header-nav-item">
-                    <a class="nav-link header-nav-link" href="./category.html"
-                      >Categories</a
-                    >
-                  </li>
-                  <li class="header-nav-item">
-                    <a
-                      class="nav-link header-nav-link"
-                      href="./index.html#resellerBlock"
-                      >Become a supplier</a
-                    >
-                  </li>
-                  <li class="header-nav-last-item ml-lg-2">
-                    <a class="btn btn-primary transition-3d-hover" href="javascript:;" data-toggle="modal"
-                      data-target="#invoiceReceiptModal">Get App</a>
-                  </li>
-                </ul>
-              </div>
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse">
+            <div class="navbar-body header-abs-top-inner">
+              <ul class="js-scroll-nav navbar-nav">
+                <li class="header-nav-item">
+                  <a class="nav-link header-nav-link" href="/">Home</a>
+                </li>
+                <li class="header-nav-item">
+                  <a class="nav-link header-nav-link" href="./category.html">Categories</a>
+                </li>
+                <li class="header-nav-item">
+                  <a class="nav-link header-nav-link" href="https://blog.tendo.app/">Blog</a>
+                </li>
+                <li class="header-nav-item">
+                  <a class="nav-link header-nav-link" href="https://developer.tendo.app">Developer</a>
+                </li>
+                <li class="header-nav-item">
+                  <a class="nav-link header-nav-link" href="./index.html#resellerBlock">Become a supplier</a>
+                </li>
+                <li class="header-nav-last-item ml-lg-2">
+                  <a class="btn btn-primary transition-3d-hover" href="javascript:;" data-toggle="modal"
+                    data-target="#invoiceReceiptModal">Get App</a>
+                </li>
+              </ul>
             </div>
-            <!-- End Navigation -->
-          </nav>
-          <!-- End Nav -->
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- Invoice Modal -->
+  <div class="modal fade" id="invoiceReceiptModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <!-- Header -->
+        <div class="modal-top-cover bg-primary text-center">
+          <figure class="position-absolute right-0 bottom-0 left-0">
+            <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
+              <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z" />
+            </svg>
+          </figure>
+
+          <div class="modal-close">
+            <button type="button" class="btn btn-icon btn-sm btn-ghost-light" data-dismiss="modal" aria-label="Close">
+              <svg width="16" height="16" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor"
+                  d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- End Header -->
+
+        <div class="modal-top-cover-avatar">
+          <img class="avatar avatar-lg avatar-circle avatar-border-lg avatar-centered shadow-soft"
+            src="./assets/images/favtendo.png" alt="Logo">
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body pt-3 pb-sm-5 px-sm-5">
+          <p class="text-center my-4 small">Welcome. Select your country and you will be redirected to our WhatsApp
+            group where
+            someone will assist you to get
+            started.</p>
+          <div class="row mb-6 text-center">
+            <div class="col-md-6">
+              <a href="https://rebrand.ly/hi-tendo" target="_blank">
+                <span class="avatar avatar-xl">
+                  <img class="avatar-img" src="./assets/images/ghana.svg" alt="Image Description">
+                </span>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a href="https://rebrand.ly/hi-tendong" target="_blank">
+                <span class="avatar avatar-xl">
+                  <img class="avatar-img" src="./assets/images/nija.svg" alt="Image Description">
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <hr class="my-5">
+
+          <p class="modal-footer-text">If you have any questions, please contact us at <a
+              href="mailto:inbox@tendo.app">inbox@tendo.app</a> or call <a class="text-nowrap"
+              href="tel:+233503247275">+233 50
+              3247275</a></p>
         </div>
       </div>
-    </header>
-    <!-- ========== END HEADER ========== -->
+    </div>
+  </div>
+  <!-- End Invoice Modal -->
 
-    <!-- Invoice Modal -->
-    <div class="modal fade" id="invoiceReceiptModal" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <!-- Header -->
-          <div class="modal-top-cover bg-primary text-center">
-            <figure class="position-absolute right-0 bottom-0 left-0">
-              <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
-                <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z" />
-              </svg>
-            </figure>
-    
-            <div class="modal-close">
-              <button type="button" class="btn btn-icon btn-sm btn-ghost-light" data-dismiss="modal" aria-label="Close">
-                <svg width="16" height="16" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-                  <path fill="currentColor"
-                    d="M11.5,9.5l5-5c0.2-0.2,0.2-0.6-0.1-0.9l-1-1c-0.3-0.3-0.7-0.3-0.9-0.1l-5,5l-5-5C4.3,2.3,3.9,2.4,3.6,2.6l-1,1 C2.4,3.9,2.3,4.3,2.5,4.5l5,5l-5,5c-0.2,0.2-0.2,0.6,0.1,0.9l1,1c0.3,0.3,0.7,0.3,0.9,0.1l5-5l5,5c0.2,0.2,0.6,0.2,0.9-0.1l1-1 c0.3-0.3,0.3-0.7,0.1-0.9L11.5,9.5z" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          <!-- End Header -->
-    
-          <div class="modal-top-cover-avatar">
-            <img class="avatar avatar-lg avatar-circle avatar-border-lg avatar-centered shadow-soft"
-              src="./assets/images/favtendo.png" alt="Logo">
-          </div>
-    
-          <!-- Body -->
-          <div class="modal-body pt-3 pb-sm-5 px-sm-5">
-            <p class="text-center my-4 small">Welcome. Select your country and you will be redirected to our WhatsApp group where
-              someone will assist you to get
-              started.</p>
-            <div class="row mb-6 text-center">
-              <div class="col-md-6">
-                <a href="https://rebrand.ly/hi-tendo" target="_blank">
-                  <span class="avatar avatar-xl">
-                    <img class="avatar-img" src="./assets/images/ghana.svg" alt="Image Description">
-                  </span>
-                </a>
+  <!-- ========== MAIN ========== -->
+  <main id="content" role="main">
+    <!-- Hero Section -->
+    <div class="bg-img-hero" style="background-image: url(./assets/components/bg.svg);">
+      <div class="container space-top-3 space-top-lg-4 space-bottom-2 position-relative z-index-2">
+        <div class="w-md-80 w-lg-60 text-center mx-md-auto">
+          <h1>FAQ</h1>
+          <p>Search our FAQ for answers to anything you might ask.</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- FAQ Topics Section -->
+    <div class="container space-2 space-bottom-lg-3">
+      <div class="row justify-content-lg-center">
+        <div class="col-lg-8">
+          <div id="basics" class="space-bottom-1">
+            <h2>What is Tendo</h2>
+
+            <!-- Basics Accordion -->
+            <div id="basicsAccordion">
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="basicsHeadingOne">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#basicsCollapseOne"
+                    aria-expanded="false" aria-controls="basicsCollapseOne">
+                    What is Tendo about?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="basicsCollapseOne" class="collapse" aria-labelledby="basicsHeadingOne"
+                  data-parent="#basicsAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      Tendo empowers people who want to start a business
+                      online but have no capital. We list different products
+                      at wholesale prices on the Tendo App. You (the reseller)
+                      will find the ones you want to sell, add your profit and
+                      share online. Once you get an order, place it on our
+                      platform.
+                    </p>
+                    <p>
+                      We will deliver on your behalf, collect the cash and
+                      send you the profit you added. Easy
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-6">
-                <a href="https://rebrand.ly/hi-tendong" target="_blank">
-                  <span class="avatar avatar-xl">
-                    <img class="avatar-img" src="./assets/images/nija.svg" alt="Image Description">
-                  </span>
-                </a>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="basicsHeadingTwo">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#basicsCollapseTwo"
+                    aria-expanded="false" aria-controls="basicsCollapseTwo">
+                    Who can be a Reseller?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="basicsCollapseTwo" class="collapse" aria-labelledby="basicsHeadingTwo"
+                  data-parent="#basicsAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      Anyone can be a reseller on Tendo. There are currently
+                      hundreds of resellers on Tendo and they are all from
+                      diverse backgrounds. Some are students, housewives,
+                      full-time workers, self-employed, etc. All you need is a
+                      mobile phone and you too can become a reseller.
+                    </p>
+                  </div>
+                </div>
               </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="basicsHeadingThree">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#basicsCollapseThree"
+                    aria-expanded="false" aria-controls="basicsCollapseThree">
+                    What if I have never sold online before?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="basicsCollapseThree" class="collapse" aria-labelledby="basicsHeadingThree"
+                  data-parent="#basicsAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      We have digital marketing experts who will be helping
+                      you with all the skills required in selling online. So
+                      if you have no experience don't worry at all. Just be
+                      determined to learn and work hard.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="basicsHeadingFour">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#basicsCollapseFour"
+                    aria-expanded="false" aria-controls="basicsCollapseFour">
+                    Where do you operate?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="basicsCollapseFour" class="collapse" aria-labelledby="basicsHeadingFour"
+                  data-parent="#basicsAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      We currently operate only in Accra and Kumasi. But we
+                      are expanding to other cities soon
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="basicsHeadingFour">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#basicsCollapseFive"
+                    aria-expanded="false" aria-controls="basicsCollapseFour">
+                    Why did you start Tendo?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="basicsCollapseFive" class="collapse" aria-labelledby="basicsHeadingFive"
+                  data-parent="#basicsAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      We've been selling online for the past two years. But
+                      during the COVID 19 lockdown, we realized that our
+                      suppliers were not getting business. On the other hand,
+                      people had lost their jobs and needed money.
+                    </p>
+                    <p>
+                      That's why we decided to create this platform to help
+                      suppliers who need more customers to reach more people.
+                      And for people who want to sell but don't have the
+                      capital, to do so without restrictions, and earn money
+                      for themselves.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
             </div>
-          
-            <hr class="my-5">
-          
-            <p class="modal-footer-text">If you have any questions, please contact us at <a
-                href="mailto:inbox@tendo.app">inbox@tendo.app</a> or call <a class="text-nowrap" href="tel:+233503247275">+233 50
-                3247275</a></p>
+            <!-- End Basics Accordion -->
+          </div>
+
+          <div id="syncing" class="space-1">
+            <h2>Getting Started</h2>
+
+            <!-- Syncing Accordion -->
+            <div id="syncingAccordion">
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="syncingHeadingOne">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#syncingCollapseOne"
+                    aria-expanded="false" aria-controls="syncingCollapseOne">
+                    How do I get started on Tendo?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="syncingCollapseOne" class="collapse" aria-labelledby="syncingHeadingOne"
+                  data-parent="#syncingAccordion">
+                  <div class="card-body px-0">
+                    <ul class="">
+                      <li>
+                        <p>
+                          Firstly, send Tendo a WhatsApp message using this
+                          link (rebrand.ly/hi-tendo) or 0506875045
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          You will then receive an invitation to join the
+                          Tendo group and also a link to the app
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          After installing the app, you will see all products
+                          listed there
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Go ahead and open any one of them, see the
+                          description and view more images and videos with the
+                          link in the description
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          You can download all product images and share online
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Once you get an order, return to the app and place
+                          it there
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Send us a screenshot after placing the order
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="syncingHeadingTwo">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#syncingCollapseTwo"
+                    aria-expanded="false" aria-controls="syncingCollapseTwo">
+                    Can one switch from one product to another along the line?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="syncingCollapseTwo" class="collapse" aria-labelledby="syncingHeadingTwo"
+                  data-parent="#syncingAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      Of course. On Tendo, you can sell anything you want, no
+                      restrictions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="syncingHeadingThree">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#syncingCollapseThree"
+                    aria-expanded="false" aria-controls="syncingCollapseThree">
+                    How much can I earn on Tendo?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="syncingCollapseThree" class="collapse" aria-labelledby="syncingHeadingThree"
+                  data-parent="#syncingAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      Tendo gives you the freedom to earn an unlimited amount
+                      of money with zero risks. It all depends on how much
+                      time and effort you put in. Some of our top resellers
+                      earn Ghc 1000 to Ghc 5000 each month
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="syncingHeadingThree">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#syncingCollapseFour"
+                    aria-expanded="false" aria-controls="syncingCollapseThree">
+                    What is the payment method?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="syncingCollapseFour" class="collapse" aria-labelledby="syncingHeadingThree"
+                  data-parent="#syncingAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      We do cash on delivery so that you can build trust with
+                      your customers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="syncingHeadingThree">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#syncingCollapseFive"
+                    aria-expanded="false" aria-controls="syncingCollapseFive">
+                    How much can I earn on Tendo?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="syncingCollapseFive" class="collapse" aria-labelledby="syncingHeadingFive"
+                  data-parent="#syncingAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      Tendo gives you the freedom to earn an unlimited amount
+                      of money with zero risks. It all depends on how much
+                      time and effort you put in. Some of our top resellers
+                      earn Ghc 1000 to Ghc 5000 each month
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="syncingHeadingThree">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#syncingCollapseSix"
+                    aria-expanded="false" aria-controls="syncingCollapseThree">
+                    How do you prevent my customers from seeing the original
+                    price?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="syncingCollapseSix" class="collapse" aria-labelledby="syncingHeadingThree"
+                  data-parent="#syncingAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      We understand how important it is for resellers to keep
+                      their source of supply private. We deliver the packages
+                      in your name and quote the final price you gave the
+                      customer. So the customer will never find the source and
+                      price.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+            <!-- End Syncing Accordion -->
+          </div>
+
+          <div id="account" class="space-1">
+            <h2>Selling &amp; Profits</h2>
+
+            <!-- Account Accordion -->
+            <div id="accountAccordion">
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="accountHeadingOne">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#accountCollapseOne"
+                    aria-expanded="false" aria-controls="accountCollapseOne">
+                    How much profit can I add to the product?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="accountCollapseOne" class="collapse" aria-labelledby="accountHeadingOne"
+                  data-parent="#accountAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      You have the freedom to add any profit you want. We will
+                      provide you with information on the current market price
+                      of the product so you don’t over/under-price. But it’s
+                      totally up to you to decide how much to add.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="accountHeadingTwo">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#accountCollapseTwo"
+                    aria-expanded="false" aria-controls="accountCollapseTwo">
+                    When will I get my profit?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="accountCollapseTwo" class="collapse" aria-labelledby="accountHeadingTwo"
+                  data-parent="#accountAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      We send all profits to your Mobile Money Number within 3
+                      days after delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="accountHeadingThree">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#accountCollapseThree"
+                    aria-expanded="false" aria-controls="accountCollapseThree">
+                    How do I verify the quality of the products?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="accountCollapseThree" class="collapse" aria-labelledby="accountHeadingThree"
+                  data-parent="#accountAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      We have a very strict quality assurance process for
+                      suppliers before they list on Tendo. We physically visit
+                      suppliers to verify the quality of their products.
+                    </p>
+                    <p>
+                      We also take active feedback from resellers and we use
+                      that to blacklist suppliers with poor quality products.
+                      For the majority of products, we add real-life photos
+                      and videos of the products in their natural state.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+            <!-- End Account Accordion -->
+          </div>
+
+          <div id="privacy" class="space-1">
+            <h2>Becoming a Tendo Supplier</h2>
+
+            <!-- Privacy Accordion -->
+            <div id="privacyAccordion">
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="privacyHeadingOne">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#privacyCollapseOne"
+                    aria-expanded="false" aria-controls="privacyCollapseOne">
+                    Who can become a Tendo Supplier?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="privacyCollapseOne" class="collapse" aria-labelledby="privacyHeadingOne"
+                  data-parent="#privacyAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      Anyone who has physical products and is willing to sell
+                      at wholesale prices can become a supplier on Tendo.
+                      Tendo helps suppliers reach more customers at ZERO cost
+                      by leveraging on resellers. These resellers act as
+                      distributors for you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="privacyHeadingTwo">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#privacyCollapseTwo"
+                    aria-expanded="false" aria-controls="privacyCollapseTwo">
+                    How much do I have to pay to list my products on Tendo?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="privacyCollapseTwo" class="collapse" aria-labelledby="privacyHeadingTwo"
+                  data-parent="#privacyAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      It’s completely FREE to list on Tendo. We also do not
+                      take any commission when a sale is made. All you have to
+                      do is to provide products at wholesale prices so our
+                      resellers can also add their profit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="privacyHeadingThree">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#privacyCollapseThree"
+                    aria-expanded="false" aria-controls="privacyCollapseThree">
+                    How do I become a Tendo Supplier?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="privacyCollapseThree" class="collapse" aria-labelledby="privacyHeadingThree"
+                  data-parent="#privacyAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      Kindly fill the form on our main page or send us a
+                      message on <a href="tel:+233506168589">233 506 168 589</a> and we will guide you through the
+                      process.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+
+              <!-- Card -->
+              <div class="card shadow-none mb-3">
+                <div class="card-header card-collapse" id="privacyHeadingFour">
+                  <a class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
+                    href="javascript:;" role="button" data-toggle="collapse" data-target="#privacyCollapseFour"
+                    aria-expanded="false" aria-controls="privacyCollapseFour">
+                    Do I have to handle deliveries?
+
+                    <span class="card-btn-toggle">
+                      <span class="card-btn-toggle-default">&plus;</span>
+                      <span class="card-btn-toggle-active">&minus;</span>
+                    </span>
+                  </a>
+                </div>
+                <div id="privacyCollapseFour" class="collapse" aria-labelledby="privacyHeadingFour"
+                  data-parent="#privacyAccordion">
+                  <div class="card-body px-0">
+                    <p>
+                      No! Tendo will handle all deliveries so you don’t need
+                      to stress. We will pick up the items, deliver and send
+                      you your cash
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+            <!-- End Privacy Accordion -->
+          </div>
+
+          <div class="row mx-n2 space-top-lg-2">
+            <div class="col-md-6 px-2 mb-3 mb-lg-0">
+              <!-- Icon Block -->
+              <a class="card card-frame h-100"
+                href="https://wa.me/+233506875045?text=I%20have%20a%20question%20to%20ask%20about%20Tendo.%20I%20am%20asking%20from%20your%20FAQ%20page.">
+                <div class="card-body">
+                  <div class="media">
+                    <figure class="w-100 max-w-6rem mr-3">
+                      <img class="img-fluid" src="./assets/components/icon2.svg" alt="SVG" />
+                    </figure>
+                    <div class="media-body">
+                      <h3>Ask a question</h3>
+                      <p class="text-body">
+                        Chat live with us to get your questions answered.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- End Icon Block -->
+            </div>
+
+            <div class="col-md-6 px-2 mb-3 mb-lg-0">
+              <!-- Icon Block -->
+              <a class="card card-frame h-100" target="_blank"
+                href="https://firebasestorage.googleapis.com/v0/b/tendo-280308.appspot.com/o/docs%2FLanding%20Page%20Tendo%20FAQ.pdf?alt=media&token=50753d47-952e-4450-a340-182f96ead8af">
+                <div class="card-body">
+                  <div class="media">
+                    <figure class="w-100 max-w-6rem mr-3">
+                      <img class="img-fluid" src="./assets/components/icon1.svg" alt="SVG" />
+                    </figure>
+                    <div class="media-body">
+                      <h3>Read documentation</h3>
+                      <p class="text-body">
+                        Download our FAQ document and read at your convenience
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- End Icon Block -->
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Invoice Modal -->  
+    <!-- End FAQ Topics Section -->
+  </main>
+  <!-- ========== END MAIN ========== -->
 
-    <!-- ========== MAIN ========== -->
-    <main id="content" role="main">
-      <!-- Hero Section -->
-      <div
-        class="bg-img-hero"
-        style="background-image: url(./assets/components/bg.svg);"
-      >
-        <div
-          class="container space-top-3 space-top-lg-4 space-bottom-2 position-relative z-index-2"
-        >
-          <div class="w-md-80 w-lg-60 text-center mx-md-auto">
-            <h1>FAQ</h1>
-            <p>Search our FAQ for answers to anything you might ask.</p>
-          </div>
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="container space-2">
+      <div class="row mb-9">
+        <div class="col-lg-3 mb-3 mb-lg-0">
+          <!-- Logo -->
+          <a href="/" aria-label="Front">
+            <img class="brand" src="./assets/images/logo-tendo.png" alt="Logo" />
+          </a>
+          <!-- End Logo -->
+          <ul class="nav nav-sm nav-x-0 flex-column my-3">
+            <address class="nav-item small">
+              Address: <br />
+              No. 18 Banana Street. East Legon - Accra.
+            </address>
+            <li class="nav-item small">Phone: <br /><a href="tel:+233503247275">+233 50 3247275</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 mb-5 mb-lg-0">
+          <h5 class="font-weight-bold">Support and Help</h5>
+          <!-- Nav Links -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://wa.me/+233503247275?text=I%20want%20to%20inquire%20about%20the%20Tendo%20reseller%20program.%20I%20am%20contacting%20from%20your%20website.">Contact
+                us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./terms-and-conditions.html">Terms &amp; Policy</a>
+            </li>
+          </ul>
+          <!-- End Nav Links -->
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 mb-5 mb-lg-0">
+          <h5 class="font-weight-bold">About us</h5>
+          <!-- Nav Links -->
+          <ul class="nav nav-sm nav-x-0 flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Tendo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+          </ul>
+          <!-- End Nav Links -->
+        </div>
+
+        <div class="col-md-6 col-lg-5">
+          <!-- Form -->
+          <form class="js-validate mb-2">
+            <h5 class="font-weight-bold mb-3">Stay up to date</h5>
+            <div class="form-row">
+              <div class="col">
+                <div class="js-form-message">
+                  <label class="sr-only" for="subscribeSrEmail">Email address</label>
+                  <div class="input-group">
+                    <input type="email" class="form-control" name="email" id="subscribeSrEmail"
+                      placeholder="Email address" aria-label="Email address" required
+                      data-msg="Please enter a valid email address." />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <button id="emailSub" type="button" class="btn btn-primary">
+                  <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+          <!-- End Form -->
+
+          <p class="small mb-0">
+            New products and promotions. We don't spam.
+          </p>
         </div>
       </div>
-      <!-- End Hero Section -->
 
-      <!-- FAQ Topics Section -->
-      <div class="container space-2 space-bottom-lg-3">
-        <div class="row justify-content-lg-center">
-          <div class="col-lg-8">
-            <div id="basics" class="space-bottom-1">
-              <h2>What is Tendo</h2>
+      <!-- Copyright -->
+      <div class="row align-items-md-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <p id="copyright" class="small mb-0"></p>
+        </div>
 
-              <!-- Basics Accordion -->
-              <div id="basicsAccordion">
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="basicsHeadingOne">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#basicsCollapseOne"
-                      aria-expanded="false"
-                      aria-controls="basicsCollapseOne"
-                    >
-                      What is Tendo about?
+        <div class="col-md-6 text-md-right">
+          <!-- Social Networks -->
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item mb-2 mb-sm-0">
+              <a class="btn btn-xs btn-icon btn-ghost-navy" href="www.facebook.com/tendohq">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
 
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="basicsCollapseOne"
-                    class="collapse"
-                    aria-labelledby="basicsHeadingOne"
-                    data-parent="#basicsAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        Tendo empowers people who want to start a business
-                        online but have no capital. We list different products
-                        at wholesale prices on the Tendo App. You (the reseller)
-                        will find the ones you want to sell, add your profit and
-                        share online. Once you get an order, place it on our
-                        platform.
-                      </p>
-                      <p>
-                        We will deliver on your behalf, collect the cash and
-                        send you the profit you added. Easy
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
+            <li class="list-inline-item mb-2 mb-sm-0">
+              <a class="btn btn-xs btn-icon btn-ghost-navy" href="https://twitter.com/tendohq">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
 
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="basicsHeadingTwo">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#basicsCollapseTwo"
-                      aria-expanded="false"
-                      aria-controls="basicsCollapseTwo"
-                    >
-                      Who can be a Reseller?
+            <li class="list-inline-item mb-2 mb-sm-0">
+              <a class="btn btn-xs btn-icon btn-ghost-navy" href="https://www.instagram.com/tendohq/">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
 
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="basicsCollapseTwo"
-                    class="collapse"
-                    aria-labelledby="basicsHeadingTwo"
-                    data-parent="#basicsAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        Anyone can be a reseller on Tendo. There are currently
-                        hundreds of resellers on Tendo and they are all from
-                        diverse backgrounds. Some are students, housewives,
-                        full-time workers, self-employed, etc. All you need is a
-                        mobile phone and you too can become a reseller.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="basicsHeadingThree"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#basicsCollapseThree"
-                      aria-expanded="false"
-                      aria-controls="basicsCollapseThree"
-                    >
-                      What if I have never sold online before?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="basicsCollapseThree"
-                    class="collapse"
-                    aria-labelledby="basicsHeadingThree"
-                    data-parent="#basicsAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        We have digital marketing experts who will be helping
-                        you with all the skills required in selling online. So
-                        if you have no experience don't worry at all. Just be
-                        determined to learn and work hard.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="basicsHeadingFour">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#basicsCollapseFour"
-                      aria-expanded="false"
-                      aria-controls="basicsCollapseFour"
-                    >
-                      Where do you operate?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="basicsCollapseFour"
-                    class="collapse"
-                    aria-labelledby="basicsHeadingFour"
-                    data-parent="#basicsAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        We currently operate only in Accra and Kumasi. But we
-                        are expanding to other cities soon
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="basicsHeadingFour">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#basicsCollapseFive"
-                      aria-expanded="false"
-                      aria-controls="basicsCollapseFour"
-                    >
-                      Why did you start Tendo?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="basicsCollapseFive"
-                    class="collapse"
-                    aria-labelledby="basicsHeadingFive"
-                    data-parent="#basicsAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        We've been selling online for the past two years. But
-                        during the COVID 19 lockdown, we realized that our
-                        suppliers were not getting business. On the other hand,
-                        people had lost their jobs and needed money.
-                      </p>
-                      <p>
-                        That's why we decided to create this platform to help
-                        suppliers who need more customers to reach more people.
-                        And for people who want to sell but don't have the
-                        capital, to do so without restrictions, and earn money
-                        for themselves.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Basics Accordion -->
-            </div>
-
-            <div id="syncing" class="space-1">
-              <h2>Getting Started</h2>
-
-              <!-- Syncing Accordion -->
-              <div id="syncingAccordion">
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="syncingHeadingOne">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#syncingCollapseOne"
-                      aria-expanded="false"
-                      aria-controls="syncingCollapseOne"
-                    >
-                      How do I get started on Tendo?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="syncingCollapseOne"
-                    class="collapse"
-                    aria-labelledby="syncingHeadingOne"
-                    data-parent="#syncingAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <ul class="">
-                        <li>
-                          <p>
-                            Firstly, send Tendo a WhatsApp message using this
-                            link (rebrand.ly/hi-tendo) or 0506875045
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            You will then receive an invitation to join the
-                            Tendo group and also a link to the app
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            After installing the app, you will see all products
-                            listed there
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Go ahead and open any one of them, see the
-                            description and view more images and videos with the
-                            link in the description
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            You can download all product images and share online
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Once you get an order, return to the app and place
-                            it there
-                          </p>
-                        </li>
-                        <li>
-                          <p>
-                            Send us a screenshot after placing the order
-                          </p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="syncingHeadingTwo">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#syncingCollapseTwo"
-                      aria-expanded="false"
-                      aria-controls="syncingCollapseTwo"
-                    >
-                      Can one switch from one product to another along the line?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="syncingCollapseTwo"
-                    class="collapse"
-                    aria-labelledby="syncingHeadingTwo"
-                    data-parent="#syncingAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        Of course. On Tendo, you can sell anything you want, no
-                        restrictions.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="syncingHeadingThree"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#syncingCollapseThree"
-                      aria-expanded="false"
-                      aria-controls="syncingCollapseThree"
-                    >
-                      How much can I earn on Tendo?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="syncingCollapseThree"
-                    class="collapse"
-                    aria-labelledby="syncingHeadingThree"
-                    data-parent="#syncingAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        Tendo gives you the freedom to earn an unlimited amount
-                        of money with zero risks. It all depends on how much
-                        time and effort you put in. Some of our top resellers
-                        earn Ghc 1000 to Ghc 5000 each month
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="syncingHeadingThree"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#syncingCollapseFour"
-                      aria-expanded="false"
-                      aria-controls="syncingCollapseThree"
-                    >
-                      What is the payment method?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="syncingCollapseFour"
-                    class="collapse"
-                    aria-labelledby="syncingHeadingThree"
-                    data-parent="#syncingAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        We do cash on delivery so that you can build trust with
-                        your customers.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="syncingHeadingThree"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#syncingCollapseFive"
-                      aria-expanded="false"
-                      aria-controls="syncingCollapseFive"
-                    >
-                      How much can I earn on Tendo?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="syncingCollapseFive"
-                    class="collapse"
-                    aria-labelledby="syncingHeadingFive"
-                    data-parent="#syncingAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        Tendo gives you the freedom to earn an unlimited amount
-                        of money with zero risks. It all depends on how much
-                        time and effort you put in. Some of our top resellers
-                        earn Ghc 1000 to Ghc 5000 each month
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="syncingHeadingThree"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#syncingCollapseSix"
-                      aria-expanded="false"
-                      aria-controls="syncingCollapseThree"
-                    >
-                      How do you prevent my customers from seeing the original
-                      price?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="syncingCollapseSix"
-                    class="collapse"
-                    aria-labelledby="syncingHeadingThree"
-                    data-parent="#syncingAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        We understand how important it is for resellers to keep
-                        their source of supply private. We deliver the packages
-                        in your name and quote the final price you gave the
-                        customer. So the customer will never find the source and
-                        price.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Syncing Accordion -->
-            </div>
-
-            <div id="account" class="space-1">
-              <h2>Selling &amp; Profits</h2>
-
-              <!-- Account Accordion -->
-              <div id="accountAccordion">
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="accountHeadingOne">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#accountCollapseOne"
-                      aria-expanded="false"
-                      aria-controls="accountCollapseOne"
-                    >
-                      How much profit can I add to the product?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="accountCollapseOne"
-                    class="collapse"
-                    aria-labelledby="accountHeadingOne"
-                    data-parent="#accountAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        You have the freedom to add any profit you want. We will
-                        provide you with information on the current market price
-                        of the product so you don’t over/under-price. But it’s
-                        totally up to you to decide how much to add.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="accountHeadingTwo">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#accountCollapseTwo"
-                      aria-expanded="false"
-                      aria-controls="accountCollapseTwo"
-                    >
-                      When will I get my profit?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="accountCollapseTwo"
-                    class="collapse"
-                    aria-labelledby="accountHeadingTwo"
-                    data-parent="#accountAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        We send all profits to your Mobile Money Number within 3
-                        days after delivery.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="accountHeadingThree"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#accountCollapseThree"
-                      aria-expanded="false"
-                      aria-controls="accountCollapseThree"
-                    >
-                      How do I verify the quality of the products?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="accountCollapseThree"
-                    class="collapse"
-                    aria-labelledby="accountHeadingThree"
-                    data-parent="#accountAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        We have a very strict quality assurance process for
-                        suppliers before they list on Tendo. We physically visit
-                        suppliers to verify the quality of their products.
-                      </p>
-                      <p>
-                        We also take active feedback from resellers and we use
-                        that to blacklist suppliers with poor quality products.
-                        For the majority of products, we add real-life photos
-                        and videos of the products in their natural state.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Account Accordion -->
-            </div>
-
-            <div id="privacy" class="space-1">
-              <h2>Becoming a Tendo Supplier</h2>
-
-              <!-- Privacy Accordion -->
-              <div id="privacyAccordion">
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="privacyHeadingOne">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#privacyCollapseOne"
-                      aria-expanded="false"
-                      aria-controls="privacyCollapseOne"
-                    >
-                      Who can become a Tendo Supplier?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="privacyCollapseOne"
-                    class="collapse"
-                    aria-labelledby="privacyHeadingOne"
-                    data-parent="#privacyAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        Anyone who has physical products and is willing to sell
-                        at wholesale prices can become a supplier on Tendo.
-                        Tendo helps suppliers reach more customers at ZERO cost
-                        by leveraging on resellers. These resellers act as
-                        distributors for you.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div class="card-header card-collapse" id="privacyHeadingTwo">
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#privacyCollapseTwo"
-                      aria-expanded="false"
-                      aria-controls="privacyCollapseTwo"
-                    >
-                      How much do I have to pay to list my products on Tendo?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="privacyCollapseTwo"
-                    class="collapse"
-                    aria-labelledby="privacyHeadingTwo"
-                    data-parent="#privacyAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        It’s completely FREE to list on Tendo. We also do not
-                        take any commission when a sale is made. All you have to
-                        do is to provide products at wholesale prices so our
-                        resellers can also add their profit.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="privacyHeadingThree"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#privacyCollapseThree"
-                      aria-expanded="false"
-                      aria-controls="privacyCollapseThree"
-                    >
-                      How do I become a Tendo Supplier?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="privacyCollapseThree"
-                    class="collapse"
-                    aria-labelledby="privacyHeadingThree"
-                    data-parent="#privacyAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        Kindly fill the form on our main page or send us a
-                        message on <a href="tel:+233506168589">233 506 168 589</a> and we will guide you through the
-                        process.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-
-                <!-- Card -->
-                <div class="card shadow-none mb-3">
-                  <div
-                    class="card-header card-collapse"
-                    id="privacyHeadingFour"
-                  >
-                    <a
-                      class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed bg-white px-0"
-                      href="javascript:;"
-                      role="button"
-                      data-toggle="collapse"
-                      data-target="#privacyCollapseFour"
-                      aria-expanded="false"
-                      aria-controls="privacyCollapseFour"
-                    >
-                      Do I have to handle deliveries?
-
-                      <span class="card-btn-toggle">
-                        <span class="card-btn-toggle-default">&plus;</span>
-                        <span class="card-btn-toggle-active">&minus;</span>
-                      </span>
-                    </a>
-                  </div>
-                  <div
-                    id="privacyCollapseFour"
-                    class="collapse"
-                    aria-labelledby="privacyHeadingFour"
-                    data-parent="#privacyAccordion"
-                  >
-                    <div class="card-body px-0">
-                      <p>
-                        No! Tendo will handle all deliveries so you don’t need
-                        to stress. We will pick up the items, deliver and send
-                        you your cash
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Card -->
-              </div>
-              <!-- End Privacy Accordion -->
-            </div>
-
-            <div class="row mx-n2 space-top-lg-2">
-              <div class="col-md-6 px-2 mb-3 mb-lg-0">
-                <!-- Icon Block -->
-                <a
-                  class="card card-frame h-100"
-                  href="https://wa.me/+233503247275?text=I%20have%20a%20question%20to%20ask%20about%20Tendo.%20I%20am%20asking%20from%20your%20FAQ%20page."
-                >
-                  <div class="card-body">
-                    <div class="media">
-                      <figure class="w-100 max-w-6rem mr-3">
-                        <img
-                          class="img-fluid"
-                          src="./assets/components/icon2.svg"
-                          alt="SVG"
-                        />
-                      </figure>
-                      <div class="media-body">
-                        <h3>Ask a question</h3>
-                        <p class="text-body">
-                          Chat live with us to get your questions answered.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- End Icon Block -->
-              </div>
-
-              <div class="col-md-6 px-2 mb-3 mb-lg-0">
-                <!-- Icon Block -->
-                <a
-                  class="card card-frame h-100"
-                  target="_blank"
-                  href="https://firebasestorage.googleapis.com/v0/b/tendo-280308.appspot.com/o/docs%2FLanding%20Page%20Tendo%20FAQ.pdf?alt=media&token=50753d47-952e-4450-a340-182f96ead8af"
-                >
-                  <div class="card-body">
-                    <div class="media">
-                      <figure class="w-100 max-w-6rem mr-3">
-                        <img
-                          class="img-fluid"
-                          src="./assets/components/icon1.svg"
-                          alt="SVG"
-                        />
-                      </figure>
-                      <div class="media-body">
-                        <h3>Read documentation</h3>
-                        <p class="text-body">
-                          Download our FAQ document and read at your convenience
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-                <!-- End Icon Block -->
-              </div>
-            </div>
-          </div>
+            <li class="list-inline-item mb-2 mb-sm-0">
+              <a class="btn btn-xs btn-icon btn-ghost-navy" href="https://www.linkedin.com/company/68764000/">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- End Social Networks -->
         </div>
       </div>
-      <!-- End FAQ Topics Section -->
-    </main>
-    <!-- ========== END MAIN ========== -->
+      <!-- End Copyright -->
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
 
-    <!-- ========== FOOTER ========== -->
-    <footer>
-      <div class="container space-2">
-        <div class="row mb-9">
-          <div class="col-lg-3 mb-3 mb-lg-0">
-            <!-- Logo -->
-            <a href="/" aria-label="Front">
-              <img
-                class="brand"
-                src="./assets/images/logo-tendo.png"
-                alt="Logo"
-              />
-            </a>
-            <!-- End Logo -->
-            <ul class="nav nav-sm nav-x-0 flex-column my-3">
-              <address class="nav-item small">
-                Address: <br />
-                No. 18 Banana Street. East Legon - Accra.
-              </address>
-              <li class="nav-item small">Phone: <br /><a href="tel:+233503247275">+233 50 3247275</a></li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md-3 col-lg-2 mb-5 mb-lg-0">
-            <h5 class="font-weight-bold">Support and Help</h5>
-            <!-- Nav Links -->
-            <ul class="nav nav-sm nav-x-0 flex-column">
-              <li class="nav-item">
-                <a
-                  class="nav-link"
-                  href="https://wa.me/+233503247275?text=I%20want%20to%20inquire%20about%20the%20Tendo%20reseller%20program.%20I%20am%20contacting%20from%20your%20website."
-                  >Contact us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./faq.html">FAQ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./terms-and-conditions.html">Terms &amp; Policy</a>
-              </li>
-            </ul>
-            <!-- End Nav Links -->
-          </div>
-
-          <div class="col-6 col-md-3 col-lg-2 mb-5 mb-lg-0">
-            <h5 class="font-weight-bold">About us</h5>
-            <!-- Nav Links -->
-            <ul class="nav nav-sm nav-x-0 flex-column">
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Tendo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Careers</a>
-              </li>
-            </ul>
-            <!-- End Nav Links -->
-          </div>
-
-          <div class="col-md-6 col-lg-5">
-            <!-- Form -->
-            <form class="js-validate mb-2">
-              <h5 class="font-weight-bold mb-3">Stay up to date</h5>
-              <div class="form-row">
-                <div class="col">
-                  <div class="js-form-message">
-                    <label class="sr-only" for="subscribeSrEmail"
-                      >Email address</label
-                    >
-                    <div class="input-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        name="email"
-                        id="subscribeSrEmail"
-                        placeholder="Email address"
-                        aria-label="Email address"
-                        required
-                        data-msg="Please enter a valid email address."
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-auto">
-                  <button id="emailSub" type="button" class="btn btn-primary">
-                    <i class="fas fa-arrow-right"></i>
-                  </button>
-                </div>
-              </div>
-            </form>
-            <!-- End Form -->
-
-            <p class="small mb-0">
-              New products and promotions. We don't spam.
-            </p>
-          </div>
-        </div>
-
-        <!-- Copyright -->
-        <div class="row align-items-md-center">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <p id="copyright" class="small mb-0"></p>
-          </div>
-
-          <div class="col-md-6 text-md-right">
-            <!-- Social Networks -->
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mb-2 mb-sm-0">
-                <a
-                  class="btn btn-xs btn-icon btn-ghost-navy"
-                  href="www.facebook.com/tendohq"
-                >
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item mb-2 mb-sm-0">
-                <a
-                  class="btn btn-xs btn-icon btn-ghost-navy"
-                  href="https://twitter.com/tendohq"
-                >
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item mb-2 mb-sm-0">
-                <a
-                  class="btn btn-xs btn-icon btn-ghost-navy"
-                  href="https://www.instagram.com/tendohq/"
-                >
-                  <i class="fab fa-instagram"></i>
-                </a>
-              </li>
-
-              <li class="list-inline-item mb-2 mb-sm-0">
-                <a class="btn btn-xs btn-icon btn-ghost-navy" href="https://www.linkedin.com/company/68764000/">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </li>
-            </ul>
-            <!-- End Social Networks -->
-          </div>
-        </div>
-        <!-- End Copyright -->
-      </div>
-    </footer>
-    <!-- ========== END FOOTER ========== -->
-
-    <!-- Go to Top -->
-    <a
-      class="js-go-to go-to position-fixed"
-      href="javascript:;"
-      style="visibility: hidden;"
-      data-hs-go-to-options='{
+  <!-- Go to Top -->
+  <a class="js-go-to go-to position-fixed" href="javascript:;" style="visibility: hidden;" data-hs-go-to-options='{
            "offsetTop": 700,
            "position": {
              "init": {
@@ -1258,144 +974,134 @@
                "bottom": -15
              }
            }
-         }'
-    >
-      <i class="fas fa-angle-up"></i>
-    </a>
-    <!-- End Go to Top -->
+         }'>
+    <i class="fas fa-angle-up"></i>
+  </a>
+  <!-- End Go to Top -->
 
-    <!-- JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.min.js"
-      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-migrate-3.3.1.min.js"
-      integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-migrate-3.3.1.min.js"
+    integrity="sha256-APllMc0V4lf/Rb5Cz4idWUCYlBDG3b0EcN1Ushd3hpE=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
-    <!-- JS Module -->
-    <script src="./assets/js/app.js"></script>
-    <script src="./assets/js/fancy.js"></script>
+  <!-- JS Module -->
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/fancy.js"></script>
 
-    <!-- JS Plugins Init. -->
-    <script>
-      $(document).on("ready", function () {
-        // initialization of header
-        var header = new HSHeader($("#header")).init();
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on("ready", function () {
+      // initialization of header
+      var header = new HSHeader($("#header")).init();
 
-        // initialization of fancybox
-        $(".js-fancybox").each(function () {
-          var fancybox = $.HSCore.components.HSFancyBox.init($(this));
-        });
-
-        // initialization of aos
-        AOS.init({
-          duration: 650,
-          once: true,
-        });
-
-        // initialization of go to
-        $(".js-go-to").each(function () {
-          var goTo = new HSGoTo($(this)).init();
-        });
+      // initialization of fancybox
+      $(".js-fancybox").each(function () {
+        var fancybox = $.HSCore.components.HSFancyBox.init($(this));
       });
-    </script>
-    <script>
-      const copyright = document.querySelector("#copyright");
-      copyright.innerText = `\u00A9 Tendo. ${new Date().getFullYear()}. All rights reserved.`;
 
-      //   form object
-      const formData = {};
-      // slack webhook
-      const WEBHOOK =
-        "https://api.sheety.co/a565db2f5f48f6cbd0782a1342697a80/tendoGhanaGlide/emailSubscription";
+      // initialization of aos
+      AOS.init({
+        duration: 650,
+        once: true,
+      });
 
-      const emailSubBtn = document.querySelector("#emailSub");
-      const emailSub = document.querySelector("#subscribeSrEmail");
+      // initialization of go to
+      $(".js-go-to").each(function () {
+        var goTo = new HSGoTo($(this)).init();
+      });
+    });
+  </script>
+  <script>
+    const copyright = document.querySelector("#copyright");
+    copyright.innerText = `\u00A9 Tendo. ${new Date().getFullYear()}. All rights reserved.`;
 
-      const subEmailToSlack = (e) => {
-          e.preventDefault();
-          emailSubBtn.innerHTML = `<div class="spinner-border spinner-border-sm" role="status">
+    //   form object
+    const formData = {};
+    // slack webhook
+    const WEBHOOK =
+      "https://api.sheety.co/a565db2f5f48f6cbd0782a1342697a80/tendoGhanaGlide/emailSubscription";
+
+    const emailSubBtn = document.querySelector("#emailSub");
+    const emailSub = document.querySelector("#subscribeSrEmail");
+
+    const subEmailToSlack = (e) => {
+      e.preventDefault();
+      emailSubBtn.innerHTML = `<div class="spinner-border spinner-border-sm" role="status">
             <span class="visually-hidden sr-only">Loading...</span>
           </div>`;
-          formData.text = `My email is ${emailSub.value}. I want to subscribe to Tendo newsletters.
+      formData.text = `My email is ${emailSub.value}. I want to subscribe to Tendo newsletters.
             `;
-          let body = {
-            emailSubscription: {
-              email: emailSub.value,
-            },
+      let body = {
+        emailSubscription: {
+          email: emailSub.value,
+        },
+      }
+      fetch(WEBHOOK, {
+        method: "POST",
+        body: JSON.stringify(body),
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: "Bearer VGVuZG8gUmVzZWxsZXIkIDIwMjE=",
+        },
+      })
+        .then((res) => {
+          if (res.status === 200) {
+            emailSubBtn.innerHTML = `<i class="far fa-check-circle"></i>`;
+            emailSubBtn.classList.remove("btn-primary");
+            emailSubBtn.classList.add("btn-success");
+            emailSub.value = "";
+
+            return res.json;
           }
-          fetch(WEBHOOK, {
-            method: "POST",
-            body: JSON.stringify(body),
-            headers: {
-              "Content-Type": "application/json",
-              Authorization: "Bearer VGVuZG8gUmVzZWxsZXIkIDIwMjE=",
-            },
-          })
-            .then((res) => {
-              if (res.status === 200) {
-                emailSubBtn.innerHTML = `<i class="far fa-check-circle"></i>`;
-                emailSubBtn.classList.remove("btn-primary");
-                emailSubBtn.classList.add("btn-success");
-                emailSub.value = "";
+        })
+        .then((data) => console.log(data))
+        .catch((e) => console.log(e));
+    };
 
-                return res.json;
-              }
-            })
-            .then((data) => console.log(data))
-            .catch((e) => console.log(e));
-        };
+    emailSubBtn.addEventListener("click", (e) => subEmailToSlack(e));
+  </script>
 
-      emailSubBtn.addEventListener("click", (e) => subEmailToSlack(e));
-    </script>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
+  <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192628460-1">
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-      gtag('config', 'UA-192628460-1');
-    </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-192628460-1">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-192628460-1');
+  </script>
 
-    <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyDlzxmBsprac2xh9p2G6XdAPvRwCVsXg9c",
-        authDomain: "tendo-280308.firebaseapp.com",
-        databaseURL: "https://tendo-280308.firebaseio.com",
-        projectId: "tendo-280308",
-        storageBucket: "tendo-280308.appspot.com",
-        messagingSenderId: "867413225469",
-        appId: "1:867413225469:web:32a0f955d8604459423394",
-        measurementId: "G-V0NDV4W8WT",
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
-    </script>
-  </body>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyDlzxmBsprac2xh9p2G6XdAPvRwCVsXg9c",
+      authDomain: "tendo-280308.firebaseapp.com",
+      databaseURL: "https://tendo-280308.firebaseio.com",
+      projectId: "tendo-280308",
+      storageBucket: "tendo-280308.appspot.com",
+      messagingSenderId: "867413225469",
+      appId: "1:867413225469:web:32a0f955d8604459423394",
+      measurementId: "G-V0NDV4W8WT",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
+
 </html>
