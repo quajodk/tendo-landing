@@ -181,13 +181,7 @@
                       >Blog</a
                     >
                   </li>
-                  <li class="header-nav-item">
-                    <a
-                      class="nav-link header-nav-link"
-                      href="https://developer.tendo.app"
-                      >Developer</a
-                    >
-                  </li>
+                  <!-- Dev -->
                   <li class="header-nav-item">
                     <a
                       class="nav-link header-nav-link"
@@ -326,6 +320,20 @@
           <p>Discover the perfect Jewelleries and accessories for resell.</p>
         </div>
         <!-- End Title -->
+
+        <!-- Switch country -->
+        <ul class="nav nav-segment mb-4" id="featuresTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link active" href="jewellery.html" id="forSale-tab" data-bs-toggle="tab" data-bs-target="#forSale" role="tab" aria-controls="forSale" aria-selected="true"><img src="./assets/images/ghflag.png" style="height: 15px; width: 15px; border-radius:100px;" alt="ghflag" />
+              Ghana</a>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="jewelleryng.html" id="forRent-tab" data-bs-toggle="tab" data-bs-target="#forRent" role="tab" aria-controls="forRent" aria-selected="false"><img src="./assets/images/ngflag.jpg" style="height: 15px; width: 15px; border-radius:100px;" alt="ngflag" />
+              Nigeria</a>
+          </li>
+        </ul>
+        <!-- End of switch country -->
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-5">
           <div class="col mb-5">
@@ -1267,5 +1275,15 @@
       firebase.initializeApp(firebaseConfig);
       firebase.analytics();
     </script>
+
+    <!-- freshworks integration -->
+    <script>
+      window.fwSettings={
+      'widget_id':72000002832
+      };
+      !function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
+    </script>
+    <script type='text/javascript' src='https://widget.freshworks.com/widgets/72000002832.js' async defer></script>
+    <!-- End of freshworks integration -->
   </body>
 </html>
